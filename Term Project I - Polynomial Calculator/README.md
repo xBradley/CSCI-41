@@ -1,0 +1,1 @@
+This program is able to correctly add, subtract, multiply, and find a nth term of two polynomials of any length. Uses Object-Oriented Programming, non-STL linked lists, operator-overloads, and template functions.
