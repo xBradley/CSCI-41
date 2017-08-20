@@ -1,0 +1,26 @@
+--------Constructors--------
+c1 = 0 + 0i 
+c2 = 2 - 4i 
+c3 = 2 - 4i 
+
+--------Extraction Operator--------
+c1 = 3 - 2i 
+
+--------Assignment Operator--------
+c1 = 2 - 4i 
+c2 = 3 - 2i 
+
+--------Extraction Operator--------
+c1 = -89.3 + 100i 
+
+--------Assignment Operator--------
+c1 = 2 - 4i 
+c2 = -89.3 + 100i 
+
+--------Extraction Operator--------
+c1 = 4.2 - 69i 
+
+--------Assignment Operator--------
+c1 = 2 - 4i 
+c2 = 4.2 - 69i 
+
