@@ -1,0 +1,57 @@
+Bradley Gallardo
+CS41
+Term Project I - Polynomial
+UML
+
++-----------------------------------------------------------------------------------+
+|									polyList.h										|
++-----------------------------------------------------------------------------------+
+|																					|
+|	//Linked List																	|
+|	- ListNode : struct																|
+|		- *next : ListNode															|
+|		- base : T																	|
+|		- power : int																|
+|																					|
+|	- *head : ListNode																|
+|																					|
++-----------------------------------------------------------------------------------+
+|																					|
+|	//Constructor																	|
+|	+ PolyList()																	|
+|																					|
+|	//Copy Constructor																|
+|	+ PolyList(&rhs : PolyList)														|
+|																					|
+|	//Destructor																	|
+|	+ ~PolyList()																	|
+|																					|
+|	//List Operations																|
+|	+ appendNode(base : T, power : int ) : void										|
+|	+ insertNode(base : T, power : int ) : void										|
+|	+ deleteNode(base : T) : void													|
+|	+ displayList() const : void													|
+|	+ simplifyList() : void															|
+|	+ solveFor(base : T) : T														|
+|																					|
+|	//List Operation Overloads														|
+|	+ operator=(&rhs : PolyList) : PolyList *										|
+|	+ operator+(&rhs : PolyList) : PolyList *										|
+|	+ operator-(&rhs : PolyList) : PolyList *										|
+|	+ operator*(&rhs : PolyList) : PolyList *										|
+|	+ operator << (&stream : ostream, const &rhs : PolyList) : friend ostream &		|
+|	+ operator >> (&stream : istream, const &rhs : PolyList) : friend istream &		|
+|																					|
++------------------------------- ----------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+|									Colors											|
++-----------------------------------------------------------------------------------+
+|																					|
+|	+ Colors(BLUE = 1, GREEN, CYAN, RED, PURPLE, DYELLOW, WHITE, GREY, BBLUE,		|
+|			 BGREEN, BCYAN, BRED, PINK, YELLOW, BWHITE) : enum						|
+|																					|
+|	+ set_color(Colors) : void														|
+|																					|
++-----------------------------------------------------------------------------------+
